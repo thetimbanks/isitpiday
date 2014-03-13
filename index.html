@@ -1,1 +1,11 @@
-No
+<script>
+    var date = new Date(),
+        month = date.getMonth()+1; // getMonth() is zero-based
+        day  = date.getDate();
+
+    if (month == 3 && day == 14) {
+	document.write("YES");
+    } else {
+	document.write("NO");
+    }
+</script>
